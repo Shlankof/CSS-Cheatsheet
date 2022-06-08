@@ -21,6 +21,15 @@ a:hover{
   width: 70%;
   margin: auto;
 }
+.button {
+    padding: 8px;
+    width: 50%;
+    border-radius: 18px;
+    background-color: rgb(80, 78, 74);
+}
+.button:hover{
+    background-color: royalblue;
+}
 .box-1 {
   background-color: rgb(76, 73, 80);
   color: white;
@@ -41,6 +50,10 @@ a:hover{
   border: 3px dotted;
   padding: 20px;
   margin-bottom: 45px;
+}
+.box-2 p{
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 .categories{
     border: 3px white dotted;
@@ -70,8 +83,8 @@ text-align: center;
     .MyForm label{
         display: block;
     }
-    .MyForm input{
-        padding: 8px;
-        width: 80%;
-        border-radius: 18px;
+    
+    .MyForm input[type="text"], .MyForm textarea{
+        padding: 6px;
+        width: 50%;
     }
