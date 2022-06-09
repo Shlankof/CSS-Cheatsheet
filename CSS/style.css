@@ -9,26 +9,31 @@ body {
 
   line-height: 1.6em; /*adds space between lines*/
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-a:hover{
-    text-decoration: underline ;
-    color: aqua;
+a:hover {
+  text-decoration: underline;
+  color: aqua;
 }
 .container {
   width: 70%;
   margin: auto;
 }
 .button {
-    padding: 8px;
-    width: 50%;
-    border-radius: 18px;
-    background-color: rgb(80, 78, 74);
+  padding: 10px;
+  width: 50%;
+  border-radius: 18px;
+  background-color: rgb(80, 78, 74);
+  margin-bottom: 30px;
 }
-.button:hover{
-    background-color: royalblue;
+.button:hover {
+  background-color: royalblue;
+}
+
+.clr{
+  clear: both;
 }
 .box-1 {
   background-color: rgb(76, 73, 80);
@@ -51,40 +56,63 @@ a:hover{
   padding: 20px;
   margin-bottom: 45px;
 }
-.box-2 p{
-    padding-bottom: 10px;
-    padding-top: 15px;
+.box-2 p {
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
-.categories{
-    border: 3px white dotted;
-    padding: 20px;
-    border-radius: 15px;
-    margin-bottom: 50px;
+.categories {
+  border: 3px white dotted;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
 }
-.categories h2{
-text-align: center;
+.categories h2 {
+  text-align: center;
 }
-.categories ul{
-    padding-left: 10px;
-    list-style: upper-roman;
-    list-style: none;
-    }
-    .categories li{
-        padding-bottom: 3px;
-        border-bottom: dotted 1px blue;
-        list-style-image: url(../images/pplane.png);
-    }
-    .MyForm{
-        padding: 20px;
-    }
-    .MyForm .form-group{
-        padding-bottom: 15px;
-    }
-    .MyForm label{
-        display: block;
-    }
-    
-    .MyForm input[type="text"], .MyForm textarea{
-        padding: 6px;
-        width: 50%;
-    }
+.categories ul {
+  padding-left: 10px;
+  list-style: upper-roman;
+  list-style: none;
+}
+.categories li {
+  padding-bottom: 3px;
+  border-bottom: dotted 1px blue;
+  list-style-image: url(../images/pplane.png);
+}
+.MyForm {
+  padding: 20px;
+}
+.MyForm .form-group {
+  padding-bottom: 15px;
+}
+.MyForm label {
+  display: block;
+}
+
+.MyForm input[type="text"],
+.MyForm textarea {
+  padding: 6px;
+  width: 50%;
+}
+.block{
+  float: left ;
+  width: 33.3%;
+  border: 1px solid rgb(32, 31, 31);
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#main-block{
+  float: left;
+  width: 70%;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  background-color: rgb(102, 102, 69);
+  color: rgb(20, 57, 220);
+  padding:  15px;
+  box-sizing: border-box;
+}
